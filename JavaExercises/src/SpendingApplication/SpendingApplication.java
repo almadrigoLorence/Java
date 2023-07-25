@@ -16,12 +16,16 @@ public class SpendingApplication {
 //      User must input a number given by the instruction
         System.out.println("Enter the amount spent last month on the following Items");
         System.out.print("Food: ");
+        // input 250 for food
         food = input.nextDouble();
         System.out.print("Clothing: ");
+        // input 250 for clothing
         clothing = input.nextDouble();
         System.out.print("Entertainment: ");
+        // input 250 for entertainment
         entertainment = input.nextDouble();
         System.out.print("Rent: ");
+        // input 1250 for rent
         rent = input.nextDouble();
         input.close();
 
